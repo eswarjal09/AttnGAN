@@ -27,6 +27,8 @@ import torch.optim as optim
 from torch.autograd import Variable
 import torch.backends.cudnn as cudnn
 import torchvision.transforms as transforms
+import warnings
+warnings.filterwarnings('ignore')
 
 
 dir_path = (os.path.abspath(os.path.join(os.path.realpath(__file__), './.')))
